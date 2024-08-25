@@ -156,7 +156,7 @@ copybtn.addEventListener("click",()=>{
 generatebutton.addEventListener("click",()=>{
     //none of the button is clicked
     if(checkcount == 0){
-        return window.alert("Error 05430 \nCheck Atleast One Box")
+        return window.alert("Error 05430 \nTick Atleast One Box")
     }
     //if 3 checkboxes are checked and the length we gave is 1 we should change the length to 3
     if(passwordlength<checkcount){
